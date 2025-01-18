@@ -407,6 +407,7 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
 export interface ApiRestaurantRestaurant extends Struct.CollectionTypeSchema {
   collectionName: 'restaurants';
   info: {
+    description: '';
     displayName: 'Restaurant';
     pluralName: 'restaurants';
     singularName: 'restaurant';
